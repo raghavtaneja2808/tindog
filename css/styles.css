@@ -1,0 +1,143 @@
+body{
+    font-family: "Montserrat";
+    
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+h1 {
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3em;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+.container-fluid{
+    padding: 3% 15%;
+}
+.feature-box{
+    padding: 6%;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.db{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+}
+.fa-solid{
+    color: #ef8172;
+    font-size: 5em;
+}
+.fa-solid:hover{
+   color: #ff4c68;
+}
+h3{
+    font-family:"Monstserrat" ,system-ui;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+p{
+    color: #8f8f8f;
+}
+h2{
+    font-family: "Monsterrat",system-ui;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172 ;
+    color: white;
+}
+.testimonial-image{
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5;
+    position: relative;
+    z-index: 1;
+    margin-top: -200px;
+    background-color: white;
+}
+.btn-block{
+    background-color: #ff4c68;
+}
+.btn-block:hover{
+    background-color: #ef8172;
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+h3{
+    font-family:"Monstserrat" ,system-ui;
+    font-weight: 900;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: white;
+    
+}
+}
+.py-5 h3{
+    color: #ff4c68;
+    font-size: 1.8em;
+}
+.icon{
+    font-size: 1.3em;
+    color: black;
+    padding: 10px;
+    }
+footer{
+    text-align: center;
+    padding: 75px;
+}
+@media(max-width: 1114px) {
+.title-image{
+    position: static;
+    transform: rotate(0);
+}    
+.feature-box{
+    position: relative;
+    margin-top: 0;
+}
+}
